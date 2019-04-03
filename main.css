@@ -1,0 +1,19 @@
+#logo {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 300px;
+	letter-spacing: 6px;
+	word-spacing: 6px;
+}
+body{
+	background-color: #5ad75a;
+	text-align: center;
+}
+.container{
+	width: 40%;
+	height: auto;
+	margin: auto;
+}
+.image{
+	width: 100%;
+	height: auto;
+}

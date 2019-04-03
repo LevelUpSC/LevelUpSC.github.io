@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ICE CREAM RANKED</title>
+		<link rel="stylesheet" href="assets/css/ic.css">
+	</head>
+
+	<body>
+		<div class="outer">
+			<div class="container">
+				<img id="images" class="image" src="images/00.jpg" alt="Picture of ice cream cone"/>
+				<div class="overlay">
+					<div id="txt" class="text">YUM</div>
+				</div>	
+			</div>
+		</div>
+		
+		
+		<p>
+			<h1>Most Popular Ice Cream Flavors (according to me)</h1>
+			<table>
+				<tr>
+					<th>Rank</th>
+					<th>Flavor</th>
+				</tr>
+				
+				<tr onmouseover="document.getElementById('images').src='images/01.jpeg'; document.getElementById('txt').innerHTML = 'Vanilla is my favorite';">
+					<td>1</td>
+					<td>Vanilla</td>
+				</tr>
+				
+				<tr onmouseover="document.getElementById('images').src='images/02.jpeg'; document.getElementById('txt').innerHTML = 'Strawberry is almost my favorite';">
+					<td>2</td>
+					<td>Strawberry</td>
+				</tr>
+				
+				<tr onmouseover="document.getElementById('images').src='images/03.jpeg'; document.getElementById('txt').innerHTML = 'Chocolate is great in milkshakes.';">
+					<td>3</td>
+					<td>Chocolate</td>
+				</tr>
+				
+				<tr onmouseover="document.getElementById('images').src='images/04.jpeg'; document.getElementById('txt').innerHTML = 'Cookies & Cream would be my favorite if I wasn't a minimalist.';">
+					<td>4</td>
+					<td>Cookies & Cream</td>
+				</tr>
+				
+				<tr onmouseover="document.getElementById('images').src='images/05.jpeg'; document.getElementById('txt').innerHTML = 'Mint Chocolate Chip is my least favorite of my top 5.';">
+					<td>5</td>
+					<td>Mint Chocolate Chip</td>
+				</tr>
+				
+			</table>
+		</p>
+	</body>
+</html>
